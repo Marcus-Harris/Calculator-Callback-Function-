@@ -1,0 +1,59 @@
+body {
+    margin: 0%;
+    background-color: ivory;
+}
+
+#header-container {
+    border: solid black 3px;
+    background-color: #ffc4c4;
+    text-align: center;
+    font-family: Akaya Telivigala;
+}
+
+#inputfield {
+    text-align: center;
+    margin-top: 1%;
+}
+
+.h3 {
+    font-family: Akaya Telivigala;
+}
+
+.input, #outputfield {
+    padding: 1%;
+    text-align: center;
+}
+
+.inputfields {
+    background-color: rgb(241, 241, 241);
+    border: solid black 1.5px;
+}
+
+#submitbutton {
+    background-color: rgb(49, 155, 255);
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    border: solid black 2px;
+}
+
+#submitbutton:hover {
+    background-color: rgb(0, 98, 255);
+}
+
+#outputfield-container {
+    display: grid;
+    grid-template: 1fr / 2.75fr 1fr 3fr;
+    margin-top: 0.5%;
+}
+
+#outputfield {
+    min-width: 50px;
+    min-height: 30px;
+    padding-top: 5%;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: greenyellow;
+    border: solid black 2px;
+
+}
